@@ -1,0 +1,85 @@
+html, body {
+	width: 1000px;
+	margin-left: 15%;
+}
+
+
+#header {
+	height: 2.5in;
+	background-image: url("./images/top-image.jpg");
+	display: flex;
+	flex-direction: column-reverse;
+	background-size: cover;
+	padding-top: 10px;
+}
+
+.header-nav {
+	align-self: flex-end;
+}
+.header-nav li {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: large;
+	padding: 0px 10px;
+}
+
+.header-nav a {
+	text-decoration: none;
+	color: darkred;
+	background-color: rgb(255, 255, 255, 0.7);
+}
+.header-nav a:visited {
+	color: none;
+}
+.header-nav a:hover {
+	background-color: rgb(255, 255, 255, 0.5);
+}
+
+.header-nav .current {
+	background-color: rgba(255, 255, 255, 1.0);
+}
+
+#name {
+	color: darkred;
+	text-align: center;
+	font-family: cursive;
+}
+#profile-pic {
+	text-align: center;
+}
+.footer {
+	height: 1in;
+	display: block;
+	background-color: darkturquoise;
+	color: darkred;
+}
+.footer div {
+	width: auto;
+	display: inline-flex;
+	padding: 0px 20px;
+}
+.footer li {
+	color: darkred;
+	font-family: cursive;
+	font-size: large;
+	list-style: none;
+}
+.footer a {
+	color: inherit;
+	text-decoration: none;
+}
+.footer a:hover {
+	background-color: rgb(255, 255, 255, 0.6);
+}
+
+.SNS {
+
+}
+
+.SNS a {
+	padding: 10px;
+}
+.iconcolor {
+	color: darkred;
+}
+
