@@ -48,13 +48,16 @@ html, body {
 	text-align: center;
 }
 .footer {
+	width: inherit;
 	height: 1in;
 	display: block;
 	background-color: darkturquoise;
 	color: darkred;
+	margin-top: 20px;
 }
 .footer div {
 	width: auto;
+	height: auto;
 	display: inline-flex;
 	padding: 0px 20px;
 }
@@ -70,6 +73,7 @@ html, body {
 }
 .footer a:hover {
 	background-color: rgb(255, 255, 255, 0.6);
+	text-decoration: inherit;
 }
 
 .SNS {
@@ -83,3 +87,43 @@ html, body {
 	color: darkred;
 }
 
+.button-publications {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	padding: 40px 40px;
+	align-items: center;
+	justify-content: center;	
+}
+
+.button-publications button {
+	font-size: xx-large;
+	height: 300px;
+	width: 300px;
+	margin: 50px;
+	color: darkred;
+	border: solid;
+	border-width: 3px;
+	border-radius: 10%;
+	align-self: center;
+}
+
+.tg  {borderborder-spacing:0; border-style: solid; background-color: azure;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-t0np{font-family:"Comic Sans MS", cursive, sans-serif !important;;text-align:left;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg a {
+	text-decoration: none;
+}
+.tg a:visited {
+	text-decoration: none;
+}
+.tg a:hover {
+	text-decoration: none;
+	background-color: rgb(255, 255, 255,0.6);
+}
